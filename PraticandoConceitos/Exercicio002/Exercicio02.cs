@@ -1,0 +1,15 @@
+﻿
+namespace PraticandoConceitos.Exercicio002
+{
+    internal class Exercicio02
+    {
+        public static void Executar()
+        {
+            Console.WriteLine("Digite seu nome: ");
+            string nome = Console.ReadLine();
+            Console.WriteLine("Digite seu sobrenome: ");
+            string sobrenome = Console.ReadLine();
+            Console.WriteLine($"{nome} {sobrenome}");
+        }
+    }
+}
